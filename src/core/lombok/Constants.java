@@ -10,7 +10,9 @@ import java.lang.annotation.Target;
  * 
  *
  */
-@Target(ElementType.TYPE) @Retention(RetentionPolicy.SOURCE) public @interface Constants {
+@Target(ElementType.TYPE) 
+@Retention(RetentionPolicy.SOURCE) 
+public @interface Constants {
 	
 	/**
 	 * If you want your getter to be non-public, you can specify an alternate
